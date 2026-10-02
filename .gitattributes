@@ -1,0 +1,6 @@
+*.sh text eol=lf
+*.py text eol=lf
+*.R text eol=lf
+*.pptx binary
+*.xlsx binary
+*.png binary

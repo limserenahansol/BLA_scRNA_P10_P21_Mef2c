@@ -1,0 +1,36 @@
+"","P10s1","P21s1","P21s2"
+"BLA Glut Rspo2/Etv1",320,79,93
+"BLA Glut Tshz2/Satb1",423,109,141
+"BLA Glut Cdh8/Tshz3",245,78,140
+"BLA Glut Fgf10/Nrp1",246,73,101
+"BLA Glut Otof/Trhr",187,99,132
+"BLA Glut Vgll3/Prr16",132,62,87
+"BMA Glut Slc17a6/Zfp804b",297,109,226
+"PA/BMAp Glut Esr1/Reln",103,30,78
+"Immature Glut Igfbpl1/Epha3",37,27,66
+"CLA/EPd-like Glut Satb2/Nr4a2",39,15,23
+"ITC Foxp2/Tshz1 (a)",447,210,348
+"ITC Foxp2/Kcnh5 (b)",222,82,156
+"CeA/MeA GABA Meis2/Tshz2",503,101,267
+"CeA GABA Prkcd/Calcrl",141,19,24
+"D2 SPN-like Adora2a",202,17,39
+"D1 SPN-like Ebf1/Tac1",111,19,19
+"IN Sst",213,70,112
+"IN Maf/Calb1 (Pvalb-lineage)",104,43,75
+"IN Moxd1/Gna14 (MGE)",60,13,34
+"IN Pvalb chandelier",43,7,17
+"IN Vip",76,24,76
+"IN Reln/Npas1 (CGE)",44,17,44
+"IN Cck/Cnr1 (CGE)",48,18,30
+"IN Lamp5",56,31,56
+"Unresolved Nts/Pappa2",28,10,16
+"Astrocyte",875,317,1027
+"Microglia",142,334,614
+"OPC",286,262,535
+"OPC cycling",56,14,19
+"COP/NFOL",104,58,100
+"Oligodendrocyte",8,97,177
+"Endothelial",94,39,94
+"Pericyte/mural",33,8,60
+"Ependymal",47,14,41
+"Cycling progenitor",65,2,14

@@ -1,0 +1,16 @@
+"reason","sample","n"
+"doublet (GABA + astro/OPC/microglia genes)","P10s1",255
+"doublet (GABA + astro/OPC/microglia genes)","P21s1",32
+"doublet (GABA + astro/OPC/microglia genes)","P21s2",82
+"doublet (glut + ITC/glia genes)","P10s1",728
+"doublet (glut + ITC/glia genes)","P21s1",233
+"doublet (glut + ITC/glia genes)","P21s2",354
+"doublet (neuron or OPC + microglia/OPC genes)","P10s1",108
+"doublet (neuron or OPC + microglia/OPC genes)","P21s1",39
+"doublet (neuron or OPC + microglia/OPC genes)","P21s2",79
+"low quality (few genes / mito)","P10s1",63
+"low quality (few genes / mito)","P21s1",289
+"low quality (few genes / mito)","P21s2",562
+"low quality glut","P10s1",63
+"low quality glut","P21s1",41
+"low quality glut","P21s2",151

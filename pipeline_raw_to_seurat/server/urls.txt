@@ -1,0 +1,3 @@
+# One direct download link per line (P165, P188, P189 run tarballs).
+# Chrome: chrome://downloads -> right-click the file's link -> "Copy link address".
+# Lines starting with # are ignored.

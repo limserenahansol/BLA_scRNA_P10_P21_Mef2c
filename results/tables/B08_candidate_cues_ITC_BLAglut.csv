@@ -1,0 +1,49 @@
+"cell_type","gene","family","partner_on_axon","pct_P10","pct_P21","spec_pp_P10","log2_P10_vs_P21"
+"ITC Foxp2/Kcnh5 (b)","Sema6d","Semaphorin","Plxna1",0.932432432432432,0.949579831932773,6.36824324324324,0.129344139737374
+"ITC Foxp2/Kcnh5 (b)","Kirrel3","Adhesion / synaptic organiser","Kirrel3 (homophilic)",0.977477477477477,0.978991596638655,-2.25225225225225,0.705670622895776
+"ITC Foxp2/Kcnh5 (b)","Cdh13","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.90990990990991,0.953781512605042,-2.59189670954376,-0.0215945706177929
+"ITC Foxp2/Kcnh5 (b)","Tenm2","Adhesion / synaptic organiser","Adgrl1-3",0.963963963963964,0.96218487394958,-3.6036036036036,0.340509776627195
+"ITC Foxp2/Kcnh5 (b)","Nlgn1","Adhesion / synaptic organiser","Nrxn1-3",0.959459459459459,0.995798319327731,-4.05405405405406,-0.791829525582488
+"ITC Foxp2/Kcnh5 (b)","Nrg3","Secreted other","Erbb4",0.954954954954955,1,-4.5045045045045,-0.375313479899426
+"ITC Foxp2/Tshz1 (a)","Pcdh9","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.988814317673378,1,-1.1185682326622,0.305204571871427
+"ITC Foxp2/Tshz1 (a)","Kirrel3","Adhesion / synaptic organiser","Kirrel3 (homophilic)",0.984340044742729,0.991039426523297,-1.56599552572707,0.278056547260034
+"ITC Foxp2/Tshz1 (a)","Tenm2","Adhesion / synaptic organiser","Adgrl1-3",0.966442953020134,0.960573476702509,-3.35570469798658,0.502823013993562
+"ITC Foxp2/Tshz1 (a)","Ntng1","Slit/Netrin","Lrrc4c (NGL-1)",0.751677852348993,0.865591397849462,-3.79202563980516,-0.0660878441726038
+"ITC Foxp2/Tshz1 (a)","Cntn5","Adhesion / synaptic organiser","Ptprg",0.94407158836689,0.937275985663082,-5.59284116331097,0.563471019851762
+"ITC Foxp2/Tshz1 (a)","Nrg1","Secreted other","Erbb4",0.937360178970917,0.962365591397849,-6.26398210290828,0.329667889009735
+"BLA Glut Vgll3/Prr16","Nrg1","Secreted other","Erbb4",1,0.979865771812081,0,0.494736213995383
+"BLA Glut Vgll3/Prr16","Nrg3","Secreted other","Erbb4",1,1,0,0.262838465360952
+"BLA Glut Vgll3/Prr16","Tenm2","Adhesion / synaptic organiser","Adgrl1-3",1,0.993288590604027,0,0.0422627195297079
+"BLA Glut Vgll3/Prr16","Nlgn1","Adhesion / synaptic organiser","Nrxn1-3",1,0.993288590604027,0,0.0420876904003435
+"BLA Glut Vgll3/Prr16","Pcdh9","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.977272727272727,0.993288590604027,-2.27272727272727,0.447973164029988
+"BLA Glut Vgll3/Prr16","Cntn4","Adhesion / synaptic organiser","Ptprg/App",0.931818181818182,0.973154362416107,-2.56286266924564,-0.241205617388531
+"BLA Glut Otof/Trhr","Cdh13","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.935828877005348,0.978354978354978,2.59189670954376,-0.141790611643255
+"BLA Glut Otof/Trhr","Nrg1","Secreted other","Erbb4",1,0.995670995670996,-1.11022302462516e-14,0.453497963500675
+"BLA Glut Otof/Trhr","Nrg3","Secreted other","Erbb4",1,0.991341991341991,-1.11022302462516e-14,0.454074874849154
+"BLA Glut Otof/Trhr","Nlgn1","Adhesion / synaptic organiser","Nrxn1-3",1,1,-1.11022302462516e-14,-0.133404197794855
+"BLA Glut Otof/Trhr","Pcdh9","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",1,1,-1.11022302462516e-14,0.00142022987430339
+"BLA Glut Otof/Trhr","Slit3","Slit/Netrin","Robo1-3",0.983957219251337,0.974025974025974,-0.791269944785022,0.424394809696632
+"BLA Glut Fgf10/Nrp1","Slit3","Slit/Netrin","Robo1-3",0.991869918699187,0.971264367816092,0.157865656326484,0.201972796036047
+"BLA Glut Fgf10/Nrp1","Nlgn1","Adhesion / synaptic organiser","Nrxn1-3",1,0.994252873563218,0,-0.0110032976438455
+"BLA Glut Fgf10/Nrp1","Nrg3","Secreted other","Erbb4",0.995934959349594,1,-0.406504065040636,0.342992792435059
+"BLA Glut Fgf10/Nrp1","Pcdh9","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.995934959349594,0.994252873563218,-0.406504065040636,0.571958130874904
+"BLA Glut Fgf10/Nrp1","Nrg1","Secreted other","Erbb4",0.991869918699187,0.994252873563218,-0.813008130081294,0.565686525986508
+"BLA Glut Fgf10/Nrp1","Pcdh7","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.967479674796748,0.971264367816092,-1.37703252032519,0.667050076628426
+"BLA Glut Cdh8/Tshz3","Nectin3","Adhesion / synaptic organiser","Nectin1",0.391836734693878,0.279816513761468,2.05496059810063,0.535293264547166
+"BLA Glut Cdh8/Tshz3","Nrg3","Secreted other","Erbb4",1,0.977064220183486,0,0.478757329294192
+"BLA Glut Cdh8/Tshz3","Nlgn1","Adhesion / synaptic organiser","Nrxn1-3",1,0.986238532110092,0,0.0700739526754818
+"BLA Glut Cdh8/Tshz3","Nrg1","Secreted other","Erbb4",0.991836734693878,0.977064220183486,-0.816326530612232,0.338913292261381
+"BLA Glut Cdh8/Tshz3","Tenm2","Adhesion / synaptic organiser","Adgrl1-3",0.975510204081633,0.967889908256881,-2.44897959183673,0.0298582268746951
+"BLA Glut Cdh8/Tshz3","Slit3","Slit/Netrin","Robo1-3",0.96734693877551,0.94954128440367,-2.45229799236768,0.251729691953414
+"BLA Glut Tshz2/Satb1","Cntn6","Adhesion / synaptic organiser","Ptprg/Chl1",0.832151300236407,0.788,13.8273749215998,0.869599782352704
+"BLA Glut Tshz2/Satb1","Ntng1","Slit/Netrin","Lrrc4c (NGL-1)",0.789598108747045,0.82,2.63328026245959,0.00518284648574153
+"BLA Glut Tshz2/Satb1","Cntn4","Adhesion / synaptic organiser","Ptprg/App",0.957446808510638,0.936,0.119680851063819,0.00885543641664675
+"BLA Glut Tshz2/Satb1","Tenm2","Adhesion / synaptic organiser","Adgrl1-3",1,0.98,0,0.700546207555755
+"BLA Glut Tshz2/Satb1","Nrg3","Secreted other","Erbb4",0.997635933806147,0.976,-0.236406619385343,0.333702047864319
+"BLA Glut Tshz2/Satb1","Nlgn1","Adhesion / synaptic organiser","Nrxn1-3",0.997635933806147,0.972,-0.236406619385343,0.0455453317351352
+"BLA Glut Rspo2/Etv1","Cdh9","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.821875,0.947674418604651,31.832890070922,-0.128831048326457
+"BLA Glut Rspo2/Etv1","Sema3e","Semaphorin","Plxnd1",0.384375,0.540697674418605,21.3203828828829,-0.0466102875455564
+"BLA Glut Rspo2/Etv1","C1ql3","Secreted other","Adgrb3",0.853125,0.982558139534884,21.0848577235772,-0.498355258215932
+"BLA Glut Rspo2/Etv1","Slit2","Slit/Netrin","Robo1-3",0.878125,0.88953488372093,13.422256097561,0.601014208734264
+"BLA Glut Rspo2/Etv1","Pcdh10","Adhesion / synaptic organiser","homophilic (same cadherin/protocadherin)",0.715625,0.88953488372093,12.6516089108911,0.0885772028676798
+"BLA Glut Rspo2/Etv1","Flrt2","Adhesion / synaptic organiser","Unc5/Adgrl",0.603125,0.651162790697674,11.4752906976744,0.449580393612126
