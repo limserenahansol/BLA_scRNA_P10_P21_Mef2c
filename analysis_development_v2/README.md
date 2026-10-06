@@ -12,9 +12,10 @@ Read [METHODS.md](METHODS.md) before interpreting cell fractions or wiring hypot
   P10/P21 descriptive CPM ratios with mito and doublet sensitivity.
 - Figures as PNG/PDF, numerical CSV/CSV.GZ tables, source JSON and a new
   18-slide collaborator PowerPoint in `results/`.
-- A processed Seurat object and reanalysis exports prepared locally. Large data
-  are excluded from git. **The existing repository is public: new cell-level
-  data are not automatically published without an explicit sharing decision.**
+- A processed Seurat object and the original added counts-only input, published
+  as public [data-v2 release downloads](https://github.com/limserenahansol/BLA_scRNA_P10_P21_Mef2c/releases/tag/data-v2-2026-10-06).
+  Large data are excluded from git. See [SEURAT_DOWNLOADS.md](SEURAT_DOWNLOADS.md)
+  for file descriptions, loading examples and checksum verification.
 
 The new input contains 156,727 barcodes/32,285 genes, with E18_1/E18_2,
 P0_1/P0_2/P0_3 and P10_1/P10_2. Add the old P10s1/P21s1/P21s2 libraries:
@@ -39,9 +40,9 @@ There is no labelled KO/WT comparison or connectivity measurement.
 
 Download the previous source and annotated objects from
 [data-v1](https://github.com/limserenahansol/BLA_scRNA_P10_P21_Mef2c/releases/tag/data-v1).
-The new source is the user-supplied `hansol2_combined_seurat.rds`; obtain it
-directly from Hansol if no explicitly authorized new data release is listed.
-The new processed object is `BLA_E18_P0_P10_P21_seurat_v2.rds`.
+Download the new source `hansol2_combined_seurat.rds` and processed object
+`BLA_E18_P0_P10_P21_seurat_v2.rds` from
+[data-v2-2026-10-06](https://github.com/limserenahansol/BLA_scRNA_P10_P21_Mef2c/releases/tag/data-v2-2026-10-06).
 Resource bundle contains the adult Allen centroid tables reused from v1 and
 the supplied mouse TF list. Unzip its files directly into `resources/`.
 Do not distribute unpublished data by making a private repository public.
@@ -115,7 +116,8 @@ To prepare local collaborator data after step 05: run `06_export_data.R`, then
 `package_outputs.py`, then `07_validate_release.R`. These commands do not upload
 anything. The prepared `release/private_data/` folder includes the slim Seurat
 object, original new source, all-QC counts, pseudobulk and per-cell audit tables.
-Keep that folder private unless you explicitly approve public distribution.
+Only the two Seurat files listed above have been published from that folder.
+The remaining local audit/checkpoint exports are not uploaded by these commands.
 
 ## Rebuild the PowerPoint
 

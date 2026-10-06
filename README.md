@@ -18,8 +18,11 @@ Library counts are not confirmed animal replicate counts. Atlas-only annotation
 has a failed baseline, and source/age confounding remains. Expression is not
 proof of axonal pruning, receptor switching, connectivity, or direct MEF2 targets.
 Legacy findings below are exploratory v1 results, not validated causal claims.
-This repository is public; new cell-level data are kept local unless explicitly
-authorized for public release. Existing data-v1 is unchanged.
+This repository and the new Seurat downloads are public. Download the expanded
+processed object and original added dataset from
+[data-v2-2026-10-06](https://github.com/limserenahansol/BLA_scRNA_P10_P21_Mef2c/releases/tag/data-v2-2026-10-06).
+See the [loading instructions](analysis_development_v2/SEURAT_DOWNLOADS.md).
+Existing data-v1 is unchanged.
 
 This repository contains:
 
@@ -67,7 +70,21 @@ All of these results are hypotheses to test, for example by HCR at P5–P10 or i
 
 ## Data
 
-Download from the **Releases** page of this repository (tag `data-v1`). Put the files in `data/`.
+### Current developmental v2 Seurat files
+
+Download from [data-v2-2026-10-06](https://github.com/limserenahansol/BLA_scRNA_P10_P21_Mef2c/releases/tag/data-v2-2026-10-06):
+
+| File | What it is | Size |
+|---|---|---|
+| `BLA_E18_P0_P10_P21_seurat_v2.rds` | Main processed object: 76,446 putative singlets, 25,029 shared genes, RNA counts/normalized data, metadata and embeddings | 696 MB |
+| `hansol2_combined_seurat.rds` | Original added counts-only Seurat input: E18/P0/P10, 156,727 barcodes, 32,285 genes; not the filtered analysis object | 373 MB |
+
+Use [these loading instructions](analysis_development_v2/SEURAT_DOWNLOADS.md)
+for v2; the legacy examples below use different metadata and labels.
+
+### Legacy v1 files
+
+Download from [data-v1](https://github.com/limserenahansol/BLA_scRNA_P10_P21_Mef2c/releases/tag/data-v1). Put the files in `data/`.
 
 | File | What it is | Size |
 |---|---|---|
