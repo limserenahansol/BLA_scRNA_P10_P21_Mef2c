@@ -1,0 +1,3 @@
+"warning","occurrences"
+"Parameter(s) have been removed from this function: label. This warning will become an error in a future version.",3
+"Passed invalid function arguments: max_depth, eval_metric, tree_method, subsample, nthread, eta. These should be passed as a list to argument 'params'. Conversion from argument to 'params' entry will be done automatically, but this behavior will become an error in a future version.",3

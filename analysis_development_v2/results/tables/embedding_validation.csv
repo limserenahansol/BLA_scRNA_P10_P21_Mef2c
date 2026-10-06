@@ -1,0 +1,7 @@
+"reduction","test","n","value"
+"pca","marker_class_neighbour_retention",10000,0.55874
+"harmony_source","marker_class_neighbour_retention",10000,0.556653333333333
+"pca","P10_balanced_other_source_neighbours",2768,0.033718689788054
+"pca","P10_balanced_class_retention",2768,0.613993256262042
+"harmony_source","P10_balanced_other_source_neighbours",2768,0.107418111753372
+"harmony_source","P10_balanced_class_retention",2768,0.61252408477842

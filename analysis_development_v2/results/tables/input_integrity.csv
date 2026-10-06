@@ -1,0 +1,11 @@
+"input","check","passed"
+"new","finite",TRUE
+"new","nonnegative",TRUE
+"new","integer",TRUE
+"new","unique_genes",TRUE
+"new","unique_cells",TRUE
+"old","finite",TRUE
+"old","nonnegative",TRUE
+"old","integer",TRUE
+"old","unique_genes",TRUE
+"old","unique_cells",TRUE

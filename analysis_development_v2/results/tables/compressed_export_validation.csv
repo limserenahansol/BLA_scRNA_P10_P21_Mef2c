@@ -1,0 +1,6 @@
+"check","passed"
+"compressed_Seurat_readRDS_valid",TRUE
+"compressed_counts_identical",TRUE
+"compressed_normalized_RNA_identical",TRUE
+"compressed_metadata_identical",TRUE
+"compressed_embeddings_identical",TRUE

@@ -2,6 +2,25 @@
 
 Hansol Lim (Stanford). 10x Chromium 3' v3 single-cell RNA-seq of mouse basolateral amygdala.
 
+## Latest update — 6 October 2026
+
+The new [developmental v2 analysis](analysis_development_v2/README.md) adds seven
+E18/P0/P10 libraries to the previous P10/P21 data: 10 libraries, 76,446 putative
+singlets, and 25,029 shared genes. See the
+[new collaborator PowerPoint](analysis_development_v2/results/BLA_development_E18_P0_P10_P21_2026-10-06_final.pptx),
+[results summary](analysis_development_v2/results/RESULTS_SUMMARY.md), and
+[methods/limitations](analysis_development_v2/METHODS.md).
+The new [R pipeline](analysis_development_v2/scripts/run_pipeline.R) preserves
+raw inputs and separates old/new P10, ambiguous labels, and QC sensitivity.
+
+These data do not contain a labelled MEF2C KO/WT comparison or animal IDs.
+Library counts are not confirmed animal replicate counts. Atlas-only annotation
+has a failed baseline, and source/age confounding remains. Expression is not
+proof of axonal pruning, receptor switching, connectivity, or direct MEF2 targets.
+Legacy findings below are exploratory v1 results, not validated causal claims.
+This repository is public; new cell-level data are kept local unless explicitly
+authorized for public release. Existing data-v1 is unchanged.
+
 This repository contains:
 
 1. **Pipeline code**
@@ -11,7 +30,7 @@ This repository contains:
 3. **Slides**: `docs/BLA_P10_P21_celltypes_TF_cues_Mef2c_scenarios.pptx` (18 slides) and all tables in one workbook, `docs/BLA_P10_P21_tables_for_collaborator.xlsx`
 4. **Results**: every figure (`results/figures/*.png`) and table (`results/tables/*.csv`)
 
-> **Status, Oct 2026.** P10 (n = 1) and P21 (n = 2) are analysed. E18 (n = 2), P0 (n = 3) and two more P10 animals are raw BCL that still has to be run through `pipeline_raw_to_seurat/`.
+> **Legacy v1 status (superseded by v2 above).** The original analysis used one P10 and two P21 libraries. The new E18/P0/P10 counts-only Seurat input is now included in the developmental v2 update; no new Cell Ranger run was performed for this RDS analysis.
 
 ---
 
@@ -26,7 +45,7 @@ Plan: look at the amygdala first, then go back to cortex.
 3. Which guidance or adhesion cues do BLA/ITC cells express in the P5–P10 window?
 4. Which cortical neurons carry the matching partner receptors?
 
-## Main results (P10 vs P21)
+## Legacy v1 results (P10 vs P21; exploratory)
 
 | | Finding | Figure |
 |---|---|---|

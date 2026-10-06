@@ -1,0 +1,4 @@
+"sample","n","previous_label_agreement","evaluation"
+"P10s1",6037,0.845618684777207,"leave-one-old-library-out; inherited labels, not independent ground truth"
+"P21s1",2507,0.905065815715995,"leave-one-old-library-out; inherited labels, not independent ground truth"
+"P21s2",5081,0.905333595748868,"leave-one-old-library-out; inherited labels, not independent ground truth"

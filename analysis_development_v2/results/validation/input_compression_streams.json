@@ -1,0 +1,20 @@
+[
+  {
+    "file": "K:\\scRNA_BLA_phd\\hansol\\seu_harm_qc.rds",
+    "bytes": 613736390,
+    "gzip_stream_valid": true,
+    "uncompressed_bytes": 1520631449
+  },
+  {
+    "file": "K:\\scRNA_BLA_phd\\P10_P21_amygdala_2026-10\\B06_P10_P21_annotated.rds",
+    "bytes": 189399011,
+    "gzip_stream_valid": true,
+    "uncompressed_bytes": 901659933
+  },
+  {
+    "file": "K:\\scRNA_BLA_phd\\hansol2_combined_seurat.rds",
+    "bytes": 372752891,
+    "gzip_stream_valid": true,
+    "uncompressed_bytes": 1997501263
+  }
+]

@@ -1,0 +1,4 @@
+"check","passed"
+"pseudobulk_group_UMI_matches",TRUE
+"depth1000_probability_bounds",TRUE
+"RNA_counts_match_metadata",TRUE

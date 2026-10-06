@@ -1,0 +1,14 @@
+{
+  "independent_pseudobulk_CPM_values_checked": 188632,
+  "max_CPM_absolute_error": 4.0745362639427185e-10,
+  "descriptive_effects_checked": 3538,
+  "max_log2_ratio_error": 1.1102230246251565e-14,
+  "standardized_detection_not_inflated": true,
+  "native_chart_values_match_source": true,
+  "max_native_chart_display_error": 0.0,
+  "ppt_slides": 18,
+  "native_charts": 5,
+  "native_tables": 6,
+  "layout_warnings": 0,
+  "passed": true
+}

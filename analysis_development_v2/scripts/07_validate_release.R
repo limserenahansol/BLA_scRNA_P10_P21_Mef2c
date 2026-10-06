@@ -1,0 +1,31 @@
+suppressPackageStartupMessages({library(Seurat); library(Matrix); library(digest)})
+source("analysis_development_v2/scripts/config.R")
+f <- file.path(ROOT, "release", "private_data", "BLA_E18_P0_P10_P21_seurat_v2.rds")
+x <- readRDS(f)
+stopifnot(inherits(x, "Seurat"), all(dim(x) == c(25029L, 76446L)), !anyDuplicated(colnames(x)))
+raw <- readRDS(file.path(ROOT, "release", "private_data", "BLA_E18_P0_P10_P21_seurat_v2.uncompressed.rds"))
+stopifnot(identical(x[[]], raw[[]]), identical(names(x@reductions), names(raw@reductions)))
+for (layer in c("counts", "data")) stopifnot(identical(digest(LayerData(x, layer = layer), algo = "xxhash64"), digest(LayerData(raw, layer = layer), algo = "xxhash64")))
+for (nm in names(x@reductions)) stopifnot(identical(Embeddings(x, nm), Embeddings(raw, nm)))
+md <- x[[]]; C <- LayerData(x, layer = "counts")
+stopifnot(max(abs(Matrix::colSums(C) - md$nCount_shared)) == 0, all(md$doublet_call == "singlet"))
+save_table(data.frame(check = c("compressed_Seurat_readRDS_valid", "compressed_counts_identical", "compressed_normalized_RNA_identical",
+  "compressed_metadata_identical", "compressed_embeddings_identical"), passed = TRUE), "compressed_export_validation.csv")
+
+# Independent mathematical + Monte Carlo check of standardized detection.
+set.seed(SEED)
+cases <- expand.grid(N = c(1000, 2000, 10000), k = c(0, 1, 5, 50, 500))
+cases$analytical <- -expm1(lchoose(cases$N - cases$k, 1000) - lchoose(cases$N, 1000))
+cases$monte_carlo <- mapply(function(N,k) mean(rhyper(20000, k, N-k, 1000)>0), cases$N, cases$k)
+cases$se <- sqrt(cases$analytical*(1-cases$analytical)/20000)
+cases$agreement <- abs(cases$analytical-cases$monte_carlo) <= 5*cases$se + .001
+stopifnot(all(cases$agreement), all(cases$analytical >= 0 & cases$analytical <= 1))
+save_table(cases, "depth_standardization_independent_check.csv")
+
+b <- readRDS(datapath("sample_population_pseudobulk.rds"))
+stopifnot(all(colSums(b$counts) == b$groups$total_umi))
+co <- read.csv(tabpath("population_composition_per_library.csv"))
+totals <- aggregate(cbind(percent, n_cells) ~ selection + sample + denominator, co, sum)
+stopifnot(all(abs(totals$percent-100)<1e-8), all(totals$n_cells==totals$denominator))
+save_table(totals, "composition_sum_validation.csv")
+logmsg("Compressed Seurat roundtrip, counts, metadata, embeddings, composition and detection expectation all validated")
